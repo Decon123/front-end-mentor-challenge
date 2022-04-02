@@ -28,13 +28,14 @@ body {
 
 .card {
     max-width: 500px;
-    height: 60vh;
+    height: auto;
     background: #222933;
     padding: 2em;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     border-radius: 12px;
+    gap: 1.3rem;
     box-shadow: 6px 8px 12px 3px #222933;
 }
 
@@ -90,7 +91,7 @@ body {
 
 /* thanku card */
 #thank-card {
-    height: 50vh;
+    height: auto;
     align-items: center;
     text-align: center;
 }
