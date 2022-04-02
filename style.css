@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&display=swap');
+
+
+:root {
+    --base-color:#141519;
+    --accent-color:#fc7613;
+    --text-color:#767d87;
+    --white:#edf0f1;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background-color: #141519;
+    height: 100vh;
+    width: 80%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card {
+    max-width: 500px;
+    height: 60vh;
+    background: #222933;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 12px;
+    box-shadow: 6px 8px 12px 3px #222933;
+}
+
+.star {
+    align-self: flex-start;
+    background-color: #262f38;
+    padding: .4rem;
+    border-radius: 50%;
+}   
+
+.topic {
+    color: #edf0f1;
+}
+.text {
+    color: #767d87;
+    line-height: 1.5;
+}
+.numbers-links {
+    display: flex;
+    justify-content: space-between;
+}
+.number-link {
+    color: #767d87;
+    background-color: #262f38;
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    border-radius: 50%;
+    
+}
+
+.btn {
+    background-color: #fc7613;
+    color: #edf0f1;
+    text-align: center;
+    padding: .6em 0;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: all .3s;
+}
+
+.is-hovered:hover {
+    color: #fc7613;
+    background-color: #edf0f1;
+    font-weight: bold;
+}
+
+.number-link.active {
+    color: #edf0f1;
+    background-color: #767d87;
+}
+
+/* thanku card */
+#thank-card {
+    height: 50vh;
+    align-items: center;
+    text-align: center;
+}
+.isSelected {
+    color: var(--accent-color);
+    background-color:#262f38;
+    border-radius: 20px;
+    padding: .5em 1em;
+}
